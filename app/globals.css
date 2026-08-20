@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.diff-strike {
+  text-decoration: line-through;
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.diff-new {
+  color: #065f46;
+  background: #d1fae5;
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.diff-kept {
+  color: #334155;
+  background: #f1f5f9;
+  padding: 0 2px;
+  border-radius: 2px;
+}
